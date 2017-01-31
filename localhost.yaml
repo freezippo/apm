@@ -5,5 +5,5 @@
     author: freezippo
   tasks:
   - name: Create user
-    action: user name=freezippo comment="Freezippo" shell=/bin/bash createhome=yes home=/home/freezippo
+    action: user name=freezppo comment="Freezppo" shell=/bin/bash createhome=yes home=/home/freezppo
 
