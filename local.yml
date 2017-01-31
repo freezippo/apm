@@ -1,0 +1,9 @@
+---
+- hosts: 127.0.0.1
+  connection: local
+  vars:
+    author: freezippo
+  tasks:
+  - name: Create user
+    action: user name=freezppo comment="Freezppo" shell=/bin/bash createhome=yes home=/home/freezppo
+
